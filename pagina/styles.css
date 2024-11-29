@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+header .btn:hover {
+  background-color: #555;
+}
+
+/* Contenedor Principal */
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Sección de Gráficas */
+.grafica {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.grafica h2 {
+  font-size: 1.5rem;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.grafica img {
+  max-width: 100%; /* Gráficas ajustan a pantalla */
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de Página */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  header .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .grafica h2 {
+    font-size: 1.2rem;
+  }
+
+  .grafica img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  header .btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .grafica h2 {
+    font-size: 1rem;
+  }
+}

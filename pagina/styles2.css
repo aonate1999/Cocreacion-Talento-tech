@@ -1,0 +1,158 @@
+/* Estilos para los encabezados */
+h5 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Estilo para cuando se pasa el mouse por encima de los botones */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el contenedor de los datos */
+#datosMunicipio {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 800px;
+}
+
+/* Estilos para los botones en la página principal */
+.verDatos {
+  background-color: #28a745;
+  margin: 10px;
+}
+
+/* Estilo al pasar el mouse por encima de los botones */
+.verDatos:hover {
+  background-color: #218838;
+}
+
+/* Estilos para los datos del municipio */
+.municipio {
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.municipio h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.municipio p {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.municipio a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+/* Estilo para el enlace al pasar el mouse por encima */
+.municipio a:hover {
+  text-decoration: underline;
+}
+
+/*responsive  */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+/* Encabezado */
+h5 {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* Contenedor de datos del municipio */
+#datosMunicipio {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+}
+
+/* Botón */
+button#volver {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button#volver:hover {
+  background-color: #45a049;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  h5 {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #datosMunicipio {
+    padding: 15px;
+    font-size: 0.9em;
+  }
+
+  button#volver {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  h5 {
+    font-size: 1em;
+    padding: 8px;
+  }
+
+  #datosMunicipio {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+
+  button#volver {
+    padding: 6px 12px;
+    font-size: 0.8em;
+  }
+}
